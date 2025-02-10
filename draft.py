@@ -1,5 +1,3 @@
-2+2
-print('aaaaaa')
+from functions.examples import create_example
 
-# SHIFT + ENTER
-# git checkout -b draft   // Cria ( nova branch "draft"
+create_example()
