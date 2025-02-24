@@ -11,9 +11,9 @@ def create_example() -> pd.DataFrame:
         pd.DataFrame: Names and scores table.
     """
     tabela = pd.DataFrame({
-        'Nome': ['Renata', 'Anderson', 'Paulo'],
-        'Nota1': [10, 5, 9],
-        'Nota2': [7, 3, 9],
+        'nome': ['Renata', 'Anderson', 'Paulo'],
+        'nota1': [10, 5, 9],
+        'nota2': [7, 3, 9],
     })
     
     return tabela
